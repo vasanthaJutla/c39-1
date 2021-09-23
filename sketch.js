@@ -6,10 +6,10 @@ var allPlayers, car1, car2;
 var cars = [];
 
 function preload() {
-  backgroundImage = loadImage("background.png");
-  car1_img = loadImage("car1.png");
-  car2_img = loadImage("car2.png");
-  track = loadImage("track.jpg");
+  backgroundImage = loadImage("./background.png");
+  car1_img = loadImage("./car1.png");
+  car2_img = loadImage("./car2.png");
+  track = loadImage("./track.jpg");
 }
 
 function setup() {
